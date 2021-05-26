@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A54483B9-5018-4AC5-8D58-91B568620057}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presupuesto</RootNamespace>
+    <AssemblyName>Presupuesto</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\Conexion.cs" />
+    <Compile Include="DAO\DaoAhorros.cs" />
+    <Compile Include="DAO\DaoGastos.cs" />
+    <Compile Include="DAO\DaoAgregar.cs" />
+    <Compile Include="DAO\DaoIngresos.cs" />
+    <Compile Include="DAO\DaoInicio.cs" />
+    <Compile Include="LOGICA\Diseño.cs" />
+    <Compile Include="LOGICA\LAhorros.cs" />
+    <Compile Include="LOGICA\Lgastos.cs" />
+    <Compile Include="LOGICA\Lingresos.cs" />
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VISTA\Ahorro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VISTA\Ahorro.Designer.cs">
+      <DependentUpon>Ahorro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\Gasto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VISTA\Gasto.Designer.cs">
+      <DependentUpon>Gasto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\Ingreso.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VISTA\Ingreso.Designer.cs">
+      <DependentUpon>Ingreso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VISTA\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\Libre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VISTA\Libre.Designer.cs">
+      <DependentUpon>Libre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTA\NuevoPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\NuevoPago.Designer.cs">
+      <DependentUpon>NuevoPago.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VISTA\Ahorro.resx">
+      <DependentUpon>Ahorro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Gasto.resx">
+      <DependentUpon>Gasto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Ingreso.resx">
+      <DependentUpon>Ingreso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Libre.resx">
+      <DependentUpon>Libre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\NuevoPago.resx">
+      <DependentUpon>NuevoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barril-de-petroleo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bolsa-de-dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gasolina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\si.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hucha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advertencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

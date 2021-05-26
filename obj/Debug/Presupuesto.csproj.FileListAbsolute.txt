@@ -1,0 +1,15 @@
+C:\Users\SIGH-027\source\repos\Presupuesto\bin\Debug\Presupuesto.exe
+C:\Users\SIGH-027\source\repos\Presupuesto\bin\Debug\Presupuesto.pdb
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.csprojAssemblyReference.cache
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.Properties.Resources.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.csproj.GenerateResource.cache
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.csproj.CoreCompileInputs.cache
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.exe
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.pdb
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.Principal.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Ingreso.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Gasto.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Ahorro.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Libre.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.NuevoPago.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Inicio.resources
