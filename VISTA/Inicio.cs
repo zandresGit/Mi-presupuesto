@@ -94,5 +94,35 @@ namespace Presupuesto.VISTA
             imgEmergencia.Visible = false;
             imgEmergencia2.Visible = true;
         }
+
+        private void imgGas_Click(object sender, EventArgs e)
+        {
+            Retiro vista = new Retiro(lblGasolina.Text,"Gasolina");
+            vista.ShowDialog();
+        }
+
+        private void imgAceite_Click(object sender, EventArgs e)
+        {
+            Retiro vista = new Retiro(lblAceite.Text, "Aceite");
+            vista.ShowDialog();
+        }
+
+        private void imgEmergencia_Click(object sender, EventArgs e)
+        {
+            Retiro vista = new Retiro(lblEmergencia.Text, "Reserva 11%");
+            vista.ShowDialog();
+        }
+
+        private void imgIncentivo_Click(object sender, EventArgs e)
+        {
+            Retiro vista = new Retiro(lblDinero.Text, "Incentivo");
+            vista.ShowDialog();
+        }
+
+        private void imgAhorro_Click(object sender, EventArgs e)
+        {
+            Retiro vista = new Retiro(lblAhorro.Text, "Colchon (2.000.000)");
+            vista.ShowDialog();
+        }
     }
 }

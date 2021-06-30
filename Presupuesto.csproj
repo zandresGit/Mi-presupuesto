@@ -98,6 +98,12 @@
     <Compile Include="VISTA\NuevoPago.Designer.cs">
       <DependentUpon>NuevoPago.cs</DependentUpon>
     </Compile>
+    <Compile Include="VISTA\Retiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTA\Retiro.Designer.cs">
+      <DependentUpon>Retiro.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VISTA\NuevoPago.resx">
       <DependentUpon>NuevoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTA\Retiro.resx">
+      <DependentUpon>Retiro.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

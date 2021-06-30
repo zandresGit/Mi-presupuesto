@@ -13,3 +13,4 @@ C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Ahorro.re
 C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Libre.resources
 C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.NuevoPago.resources
 C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Inicio.resources
+C:\Users\SIGH-027\source\repos\Presupuesto\obj\Debug\Presupuesto.VISTA.Retiro.resources

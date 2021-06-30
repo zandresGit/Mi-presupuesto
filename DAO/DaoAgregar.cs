@@ -109,6 +109,31 @@ namespace Presupuesto.DAO
                 Conexion.cerrar();
             }
         }
+
+        public bool retiro(string tabla, string valor, string concepto)
+        {
+            try
+            {
+
+                Conexion.abrir();
+                SqlCommand comando = new SqlCommand("retirar", Conexion.conectar);
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@tabla", tabla);
+                comando.Parameters.AddWithValue("@valor", double.Parse(valor, System.Globalization.NumberStyles.Currency));
+                comando.Parameters.AddWithValue("@concepto", concepto);
+                comando.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                Conexion.cerrar();
+            }
+        }
     }
 
 }

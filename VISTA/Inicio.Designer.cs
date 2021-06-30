@@ -34,63 +34,63 @@ namespace Presupuesto.VISTA
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.imgEmergencia2 = new System.Windows.Forms.PictureBox();
+            this.imgEmergencia = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.lblEmergencia = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.imgAhorro2 = new System.Windows.Forms.PictureBox();
+            this.imgAhorro = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.lblAhorro = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.imgAceite2 = new System.Windows.Forms.PictureBox();
             this.imgAceite = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.lblAceite = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.imgIncentivo2 = new System.Windows.Forms.PictureBox();
+            this.imgIncentivo = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.lblDinero = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.imgGas2 = new System.Windows.Forms.PictureBox();
             this.imgGas = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblGasolina = new System.Windows.Forms.Label();
-            this.imgGas2 = new System.Windows.Forms.PictureBox();
-            this.imgAceite2 = new System.Windows.Forms.PictureBox();
-            this.imgIncentivo = new System.Windows.Forms.PictureBox();
-            this.imgIncentivo2 = new System.Windows.Forms.PictureBox();
-            this.imgAhorro = new System.Windows.Forms.PictureBox();
-            this.imgAhorro2 = new System.Windows.Forms.PictureBox();
-            this.imgEmergencia = new System.Windows.Forms.PictureBox();
-            this.imgEmergencia2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia)).BeginInit();
             this.panel13.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAceite2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgAceite)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgGas2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgGas)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgGas2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAceite2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -132,6 +132,31 @@ namespace Presupuesto.VISTA
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(365, 118);
             this.panel18.TabIndex = 8;
+            // 
+            // imgEmergencia2
+            // 
+            this.imgEmergencia2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgEmergencia2.BackgroundImage")));
+            this.imgEmergencia2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgEmergencia2.Location = new System.Drawing.Point(63, 7);
+            this.imgEmergencia2.Name = "imgEmergencia2";
+            this.imgEmergencia2.Size = new System.Drawing.Size(131, 107);
+            this.imgEmergencia2.TabIndex = 4;
+            this.imgEmergencia2.TabStop = false;
+            this.imgEmergencia2.MouseEnter += new System.EventHandler(this.imgEmergencia2_MouseEnter);
+            // 
+            // imgEmergencia
+            // 
+            this.imgEmergencia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgEmergencia.BackgroundImage")));
+            this.imgEmergencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgEmergencia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgEmergencia.Location = new System.Drawing.Point(52, -4);
+            this.imgEmergencia.Name = "imgEmergencia";
+            this.imgEmergencia.Size = new System.Drawing.Size(151, 127);
+            this.imgEmergencia.TabIndex = 3;
+            this.imgEmergencia.TabStop = false;
+            this.imgEmergencia.Visible = false;
+            this.imgEmergencia.Click += new System.EventHandler(this.imgEmergencia_Click);
+            this.imgEmergencia.MouseLeave += new System.EventHandler(this.imgEmergencia_MouseLeave);
             // 
             // panel13
             // 
@@ -176,6 +201,31 @@ namespace Presupuesto.VISTA
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(365, 118);
             this.panel17.TabIndex = 7;
+            // 
+            // imgAhorro2
+            // 
+            this.imgAhorro2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgAhorro2.BackgroundImage")));
+            this.imgAhorro2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgAhorro2.Location = new System.Drawing.Point(174, 7);
+            this.imgAhorro2.Name = "imgAhorro2";
+            this.imgAhorro2.Size = new System.Drawing.Size(131, 107);
+            this.imgAhorro2.TabIndex = 4;
+            this.imgAhorro2.TabStop = false;
+            this.imgAhorro2.MouseEnter += new System.EventHandler(this.imgAhorro2_MouseEnter);
+            // 
+            // imgAhorro
+            // 
+            this.imgAhorro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgAhorro.BackgroundImage")));
+            this.imgAhorro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgAhorro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgAhorro.Location = new System.Drawing.Point(163, -4);
+            this.imgAhorro.Name = "imgAhorro";
+            this.imgAhorro.Size = new System.Drawing.Size(151, 127);
+            this.imgAhorro.TabIndex = 3;
+            this.imgAhorro.TabStop = false;
+            this.imgAhorro.Visible = false;
+            this.imgAhorro.Click += new System.EventHandler(this.imgAhorro_Click);
+            this.imgAhorro.MouseLeave += new System.EventHandler(this.imgAhorro_MouseLeave);
             // 
             // panel11
             // 
@@ -224,13 +274,24 @@ namespace Presupuesto.VISTA
             // 
             // panel15
             // 
-            this.panel15.Controls.Add(this.imgAceite);
             this.panel15.Controls.Add(this.imgAceite2);
+            this.panel15.Controls.Add(this.imgAceite);
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(0, 27);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(244, 118);
             this.panel15.TabIndex = 2;
+            // 
+            // imgAceite2
+            // 
+            this.imgAceite2.BackgroundImage = global::Presupuesto.Properties.Resources.barril_de_petroleo;
+            this.imgAceite2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgAceite2.Location = new System.Drawing.Point(58, 7);
+            this.imgAceite2.Name = "imgAceite2";
+            this.imgAceite2.Size = new System.Drawing.Size(131, 107);
+            this.imgAceite2.TabIndex = 2;
+            this.imgAceite2.TabStop = false;
+            this.imgAceite2.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             // 
             // imgAceite
             // 
@@ -243,6 +304,7 @@ namespace Presupuesto.VISTA
             this.imgAceite.TabIndex = 1;
             this.imgAceite.TabStop = false;
             this.imgAceite.Visible = false;
+            this.imgAceite.Click += new System.EventHandler(this.imgAceite_Click);
             this.imgAceite.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             // 
             // panel7
@@ -286,6 +348,31 @@ namespace Presupuesto.VISTA
             this.panel16.Size = new System.Drawing.Size(243, 118);
             this.panel16.TabIndex = 3;
             // 
+            // imgIncentivo2
+            // 
+            this.imgIncentivo2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgIncentivo2.BackgroundImage")));
+            this.imgIncentivo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgIncentivo2.Location = new System.Drawing.Point(47, 7);
+            this.imgIncentivo2.Name = "imgIncentivo2";
+            this.imgIncentivo2.Size = new System.Drawing.Size(131, 107);
+            this.imgIncentivo2.TabIndex = 4;
+            this.imgIncentivo2.TabStop = false;
+            this.imgIncentivo2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter);
+            // 
+            // imgIncentivo
+            // 
+            this.imgIncentivo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgIncentivo.BackgroundImage")));
+            this.imgIncentivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgIncentivo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgIncentivo.Location = new System.Drawing.Point(36, -4);
+            this.imgIncentivo.Name = "imgIncentivo";
+            this.imgIncentivo.Size = new System.Drawing.Size(151, 127);
+            this.imgIncentivo.TabIndex = 3;
+            this.imgIncentivo.TabStop = false;
+            this.imgIncentivo.Visible = false;
+            this.imgIncentivo.Click += new System.EventHandler(this.imgIncentivo_Click);
+            this.imgIncentivo.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            // 
             // panel9
             // 
             this.panel9.Controls.Add(this.lblDinero);
@@ -319,13 +406,24 @@ namespace Presupuesto.VISTA
             // 
             // panel14
             // 
-            this.panel14.Controls.Add(this.imgGas);
             this.panel14.Controls.Add(this.imgGas2);
+            this.panel14.Controls.Add(this.imgGas);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 27);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(243, 118);
             this.panel14.TabIndex = 1;
+            // 
+            // imgGas2
+            // 
+            this.imgGas2.BackgroundImage = global::Presupuesto.Properties.Resources.gasolina;
+            this.imgGas2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.imgGas2.Location = new System.Drawing.Point(63, 6);
+            this.imgGas2.Name = "imgGas2";
+            this.imgGas2.Size = new System.Drawing.Size(131, 107);
+            this.imgGas2.TabIndex = 1;
+            this.imgGas2.TabStop = false;
+            this.imgGas2.MouseEnter += new System.EventHandler(this.imgGas2_MouseEnter);
             // 
             // imgGas
             // 
@@ -338,6 +436,7 @@ namespace Presupuesto.VISTA
             this.imgGas.TabIndex = 0;
             this.imgGas.TabStop = false;
             this.imgGas.Visible = false;
+            this.imgGas.Click += new System.EventHandler(this.imgGas_Click);
             this.imgGas.MouseLeave += new System.EventHandler(this.imgGas_MouseLeave);
             // 
             // panel5
@@ -364,100 +463,6 @@ namespace Presupuesto.VISTA
             this.lblGasolina.Text = "label1";
             this.lblGasolina.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // imgGas2
-            // 
-            this.imgGas2.BackgroundImage = global::Presupuesto.Properties.Resources.gasolina;
-            this.imgGas2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgGas2.Location = new System.Drawing.Point(63, 6);
-            this.imgGas2.Name = "imgGas2";
-            this.imgGas2.Size = new System.Drawing.Size(131, 107);
-            this.imgGas2.TabIndex = 1;
-            this.imgGas2.TabStop = false;
-            this.imgGas2.MouseEnter += new System.EventHandler(this.imgGas2_MouseEnter);
-            // 
-            // imgAceite2
-            // 
-            this.imgAceite2.BackgroundImage = global::Presupuesto.Properties.Resources.barril_de_petroleo;
-            this.imgAceite2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgAceite2.Location = new System.Drawing.Point(58, 7);
-            this.imgAceite2.Name = "imgAceite2";
-            this.imgAceite2.Size = new System.Drawing.Size(131, 107);
-            this.imgAceite2.TabIndex = 2;
-            this.imgAceite2.TabStop = false;
-            this.imgAceite2.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
-            // 
-            // imgIncentivo
-            // 
-            this.imgIncentivo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgIncentivo.BackgroundImage")));
-            this.imgIncentivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgIncentivo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgIncentivo.Location = new System.Drawing.Point(36, -4);
-            this.imgIncentivo.Name = "imgIncentivo";
-            this.imgIncentivo.Size = new System.Drawing.Size(151, 127);
-            this.imgIncentivo.TabIndex = 3;
-            this.imgIncentivo.TabStop = false;
-            this.imgIncentivo.Visible = false;
-            this.imgIncentivo.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            // 
-            // imgIncentivo2
-            // 
-            this.imgIncentivo2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgIncentivo2.BackgroundImage")));
-            this.imgIncentivo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgIncentivo2.Location = new System.Drawing.Point(47, 7);
-            this.imgIncentivo2.Name = "imgIncentivo2";
-            this.imgIncentivo2.Size = new System.Drawing.Size(131, 107);
-            this.imgIncentivo2.TabIndex = 4;
-            this.imgIncentivo2.TabStop = false;
-            this.imgIncentivo2.MouseEnter += new System.EventHandler(this.pictureBox2_MouseEnter);
-            // 
-            // imgAhorro
-            // 
-            this.imgAhorro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgAhorro.BackgroundImage")));
-            this.imgAhorro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgAhorro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgAhorro.Location = new System.Drawing.Point(163, -4);
-            this.imgAhorro.Name = "imgAhorro";
-            this.imgAhorro.Size = new System.Drawing.Size(151, 127);
-            this.imgAhorro.TabIndex = 3;
-            this.imgAhorro.TabStop = false;
-            this.imgAhorro.Visible = false;
-            this.imgAhorro.MouseLeave += new System.EventHandler(this.imgAhorro_MouseLeave);
-            // 
-            // imgAhorro2
-            // 
-            this.imgAhorro2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgAhorro2.BackgroundImage")));
-            this.imgAhorro2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgAhorro2.Location = new System.Drawing.Point(174, 7);
-            this.imgAhorro2.Name = "imgAhorro2";
-            this.imgAhorro2.Size = new System.Drawing.Size(131, 107);
-            this.imgAhorro2.TabIndex = 4;
-            this.imgAhorro2.TabStop = false;
-            this.imgAhorro2.MouseEnter += new System.EventHandler(this.imgAhorro2_MouseEnter);
-            // 
-            // imgEmergencia
-            // 
-            this.imgEmergencia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgEmergencia.BackgroundImage")));
-            this.imgEmergencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgEmergencia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgEmergencia.Location = new System.Drawing.Point(52, -4);
-            this.imgEmergencia.Name = "imgEmergencia";
-            this.imgEmergencia.Size = new System.Drawing.Size(151, 127);
-            this.imgEmergencia.TabIndex = 3;
-            this.imgEmergencia.TabStop = false;
-            this.imgEmergencia.Visible = false;
-            this.imgEmergencia.MouseLeave += new System.EventHandler(this.imgEmergencia_MouseLeave);
-            // 
-            // imgEmergencia2
-            // 
-            this.imgEmergencia2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("imgEmergencia2.BackgroundImage")));
-            this.imgEmergencia2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.imgEmergencia2.Location = new System.Drawing.Point(63, 7);
-            this.imgEmergencia2.Name = "imgEmergencia2";
-            this.imgEmergencia2.Size = new System.Drawing.Size(131, 107);
-            this.imgEmergencia2.TabIndex = 4;
-            this.imgEmergencia2.TabStop = false;
-            this.imgEmergencia2.MouseEnter += new System.EventHandler(this.imgEmergencia2_MouseEnter);
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -471,35 +476,35 @@ namespace Presupuesto.VISTA
             this.panel3.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgAceite2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgAceite)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgGas2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgGas)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgGas2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAceite2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgIncentivo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAhorro2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgEmergencia2)).EndInit();
             this.ResumeLayout(false);
 
         }
